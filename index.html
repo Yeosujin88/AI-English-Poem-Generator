@@ -7,6 +7,7 @@
     <title>AI English Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
   <h1>AI English Poem Generator</h1>
   </header>
@@ -15,10 +16,11 @@
         <input type="text" placeholder="Enter the topic of the English poem"
         autofocus
         required
-        autocomplete="off">
-        <input type="submit">
+        autocomplete="off"
+        class="instructions">
+        <input type="submit" class="submit-button">
     </form>
-    <div>
+    <div class="poem">
         The poem will appear here.
     <br />
     The poem will appear here.
@@ -27,6 +29,7 @@
   <footer>
     This app was coded by <a href="https://github.com/Yeosujin88">Sujin Y</a> and is open sourced on <a href="https://github.com/Yeosujin88/AI-English-Poem-Generator">Github</a> and is hosted on <a href="https://ai-poem-generator-by-sujin.netlify.app/">Netlify.</a>.
   </footer>
+  </div>
     <script src="src/index.js"></script>
 </body>
 </html>
